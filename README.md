@@ -28,6 +28,7 @@ fin -f some_file.txt -i "some value"
 {
   "background": false,
   "underline": true,
-  "color": "Green" // Blue, Green, Red, None
+  "color": "Green"
 }
 ```
+Для `color` доступны следующие значения `Blue`, `Green`, `Red`, `None`
