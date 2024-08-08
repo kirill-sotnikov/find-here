@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "fh"
+name = "fin"
 version = "0.1.0"
 dependencies = [
  "colored",
