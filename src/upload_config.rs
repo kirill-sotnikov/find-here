@@ -18,7 +18,7 @@ pub struct Config {
 }
 
 pub fn upload_config() -> Config {
-    let mut file = match File::open("/etc/fh-config/config.json") {
+    let mut file = match File::open("/etc/fin-config/config.json") {
         Err(error) => match error.kind() {
             std::io::ErrorKind::NotFound => {
                 return Config {
